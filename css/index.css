@@ -1,0 +1,1016 @@
+x/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* section1  ************************* */
+.section-1{
+   
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/head1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+}
+.section-1 .sec1box{
+    /* border: 2px solid wheat; */
+    text-align: center;
+    width: 80%;
+    margin:33vh auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+       
+}
+.section-1 .sec1box h1{
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 7px;
+    letter-spacing: 6px;
+    font-size: 45px;
+    padding-top: 20px;
+    font-family:  sans-serif;
+    font-weight: 100;
+}
+.section-1 .sec1box p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    word-spacing: 3px;
+    padding-top: 7px;
+    font-family:  sans-serif;
+    font-weight: 200;
+}
+.section-1 .sec1box .btn1{
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.section-1 .sec1box .btn2{
+    text-transform: uppercase;
+    color: white;
+    background-color:red;
+    font-size: 18px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 20px;
+    cursor: wait;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/* section 1 media quray */
+@media screen and (max-width:550px) {
+    .section-1 .sec1box{
+        border: 2px solid wheat;
+        text-align: center;
+        width: 98%;
+        margin:10vh auto;
+        background-color: rgba(0, 0, 0, 0.3);
+     
+    }
+    .section-1 .sec1box h1{
+        text-transform: uppercase;
+        color: white;
+        word-spacing: 8px;
+        letter-spacing: 3px;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    
+}
+
+/* section 2 ******************************* */
+.section-2{
+   
+    width: 90%;
+    margin:30px auto ;
+    /* border: 1px solid red;  */
+    
+}
+    /* sec2 div1 */
+.section-2 .sec2div{
+    /* border: 1px solid brown; */
+    width: 60%;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: white;
+}
+.section-2 .sec2div h1{
+    text-transform: capitalize;
+    word-spacing: 8px;
+    font-family:  sans-serif;
+    font-weight: 100;
+    word-spacing: 9px;
+    letter-spacing: 3px;
+    font-size: 40px;  
+}
+.section-2 .sec2div p{
+    word-spacing: 3px;
+    font-family:  sans-serif;
+    font-weight: 100;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding-top: 7px;
+}
+/* sec2 maindiv1 */
+.section-2 .sec2maindiv1{
+    width: 90%;
+    /* border: 1px solid gray; */
+    margin: 0 auto;
+}
+/* icon first box  *********************/
+.section-2 .sec2box1{
+    /* border: 1px solid blue; */
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    
+}
+.section-2 .sec2box1 i{
+    color:darkcyan;
+    font-size: 70px;
+    padding: 25px;
+    cursor: pointer;
+   
+    
+}
+
+.section-2 .sec2box1 h2{
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+}
+.section-2 .sec2box1 p{
+   padding:10px 0;
+   font-family: sans-serif;
+   font-weight: 100;
+   line-height: 25px;
+}
+.section-2 .sec2box2{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+
+}
+.section-2 .sec2box2 i{
+    color:red;
+    font-size: 70px;
+    padding: 25px;
+    cursor: pointer;
+}
+.section-2 .sec2box2 h2{
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+}
+.section-2 .sec2box2 p{
+   padding:10px 0;
+   font-family: sans-serif;
+   font-weight: 100;
+   line-height: 25px;
+}
+.section-2 .sec2box3{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+
+}
+.section-2 .sec2box3 i{
+    color:darkcyan;
+    font-size: 70px;
+    padding: 25px;
+    cursor: pointer;
+}
+.section-2 .sec2box3 h2{
+    text-transform: uppercase;
+    font-family:  sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+}
+.section-2 .sec2box3 p{
+   padding:10px 0;
+   font-family: sans-serif;
+   font-weight: 100;
+   line-height: 25px;
+}
+
+/* icon seconds box  *******************/
+
+/* sec2 maindiv2 */
+.section-2 .sec2maindiv2{
+    width: 90%;
+    /* border: 1px solid gold; */
+    margin: 28px auto;
+}
+
+.section-2  .sec2maindiv2 .sec2box1{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+    margin-left: 4%;
+}
+.section-2 .sec2maindiv2 .sec2box2{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+
+}
+.section-2 .sec2maindiv2  .sec2box3{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+
+}
+/* section2 media quary here*/
+
+/* section3 ***************************************** */
+.section-3{
+  
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+    margin-top: 20px;
+    background-image: url(../images/app_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+.section-3 .sec3div{
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-left: 15%;
+    margin-top: 85px;
+    margin-bottom: 90px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 17px;
+    border-radius: 20px;
+     
+}
+.section-3 .sec3div img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+    border-radius: 50%;
+  background-color: yellow;
+  
+    
+   
+}
+.section-3 .sec3div h2{
+    text-transform: capitalize;
+    font-family:  sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 5px 0;
+  
+}
+.section-3 .sec3div .developer-p{
+    font-family:  sans-serif;
+    font-weight: 600;
+     border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    border-color: red;
+    width: 45%;
+    padding: 5px 0;
+   
+}
+.section-3 .sec3div p{
+    font-family:  sans-serif;
+    font-weight: 100;
+    padding: 10px 0;
+    line-height: 25px;
+
+}
+/* icon span1 */
+.section-3 .sec3div .span1{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+   background-color: dodgerblue;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.section-3 .sec3div span i{
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+/* icon span2 */
+.section-3 .sec3div .span2{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 12px;
+   
+}
+.section-3 .sec3div span i{
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+/* icon span1 */
+.section-3 .sec3div .span3{
+    text-align: center;
+    width: 40px;
+    height: 40px; 
+    background-color:crimson;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 12px;
+   
+}
+.section-3 .sec3div span i{
+    font-size: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+/* sec3 media quary */
+
+
+/* section3 end ***/
+
+/* section4 start************************************ */
+.section-4{
+    width: 100%;
+    height: 120vh;
+   background-color: whitesmoke;
+    margin: 60px 0;
+}
+.section-4 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+/* main div */
+.section-4 .sec4maindiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 90vh;
+    margin: 60px auto;
+    
+}
+/* div 1 */
+.section-4 .sec4div1{
+    /* border: 1px solid; */
+    width: 30%;
+    float: left;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: right;
+  
+}  
+/* sub divs here */
+.section-4 .sec4div1 .sec4subdiv1{
+    /* border: 1px solid yellow; */
+   
+}
+.section-4 .sec4div1 .sec4subdiv1 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+   
+
+}
+.section-4 .sec4div1 .sec4subdiv1 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+    
+}
+/* subdiv2 */
+.section-4 .sec4div1 .sec4subdiv2{
+ /* border: 1px solid red;  */
+}
+.section-4 .sec4div1 .sec4subdiv2 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 30px ;
+    padding-bottom: 15px;
+
+}
+.section-4 .sec4div1 .sec4subdiv2 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+/* subdiv3 */
+.section-4 .sec4div1 .sec4subdiv3{
+    /* border: 1px solid yellow; */
+}
+.section-4 .sec4div1 .sec4subdiv3 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 35px ;
+    padding-bottom: 10px;
+
+}
+.section-4 .sec4div1 .sec4subdiv3 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+
+/* img div */
+.section-4 .sec4div2{
+ 
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    /* border: 1px solid green; */
+    
+}
+.section-4 .sec4div2 img{
+    width: 100%;
+    height: 100%;
+     
+}
+/* div3 */
+.section-4 .sec4div3{
+    /* border: 1px solid; */
+    width: 30%;
+    height: 100%;
+    float: right;
+  
+}
+/* sub dives */
+/* sun divs here */
+.section-4 .sec4div3 .sec4subdiv1{
+    /* border: 1px solid yellow; */
+}
+.section-4 .sec4div3 .sec4subdiv1 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 1px;
+
+}
+.section-4 .sec4div3 .sec4subdiv1 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+/* subdiv2 */
+.section-4 .sec4div3 .sec4subdiv2{
+    /* border: 1px solid red; */
+}
+.section-4 .sec4div3 .sec4subdiv2 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 1px;
+
+}
+.section-4 .sec4div3 .sec4subdiv2 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+/* subdiv3 */
+.section-4 .sec4div3 .sec4subdiv3{
+    /* border: 1px solid yellow; */
+}
+.section-4 .sec4div3 .sec4subdiv3 h2{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 1px;
+
+}
+.section-4 .sec4div3 .sec4subdiv3 p{
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    
+}
+/* section 4 end */
+
+/* section5 start here****************** */
+.section-5{
+    width: 100%;
+    height: 90vh;
+   
+    background: -o-linear-gradient(302deg,#000000 20%, #0000ff 60%);
+   
+    background: linear-gradient(148deg,#000000 20%, #0000ff 60%);
+    margin-top: 90px;
+    color: #fff;
+
+}
+/* sec5 div1 */
+.section-5 .sec5div1{
+    /* border: 1px solid red; */
+    text-align: center;
+    width: 45%;
+    margin: 50px auto;
+}
+.section-5 .sec5div1 h1{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.section-5 .sec5div1 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    word-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+/* main second div */
+.section-5 .sec5maindiv2{
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 20px auto;
+    
+}
+/* sec5 subdiv1 */
+.section-5 .sec5maindiv2 .sec5subdiv1{
+    width: 30%;
+    /* border: 1px solid green; */
+    float: left;
+}
+.section-5 .sec5maindiv2 .sec5subdiv1 h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.section-5 .sec5maindiv2 .sec5subdiv1 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 10px 0;
+}
+.section-5 .sec5maindiv2 .sec5subdiv1 button{
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+}
+/* sec5 subdiv2 */
+.section-5 .sec5maindiv2 .sec5subdiv2{
+    width: 60%;
+    /* border: 1px solid yellow; */
+    float: right;
+}
+.section-5 .sec5maindiv2 .sec5subdiv2 h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.section-5 .sec5maindiv2 .sec5subdiv2 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 23px;
+    padding: 8px 0;
+
+}
+/* section5 end */
+
+
+
+
+/* section 7 **************************** */
+.section-7{
+    width: 100%;
+    
+    height: 40vh;
+    background-image: url(../images/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+   
+.section-7 .sec7div{
+  
+    width: 40%;
+    margin: 35px auto;
+}
+.section-7 .sec7div h1{
+    text-align: center;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
+.section-7 .sec7div input{
+    padding: 12px;
+    width: 80%;
+    padding-left: 22px;
+    margin-left: 10%;
+    border: none;
+    -webkit-box-shadow: 5px 5px 3px grey;
+            box-shadow: 5px 5px 3px grey;
+}
+
+.section-7 .sec7div button{
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 15px;
+    border: none;
+}
+
+
+/* section8 ********************* */
+.section-8{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 40px 0;
+
+}
+.section-8 .sec8maindiv{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    height: 40vh;
+    /* border: 1px solid; */
+}
+.section-8 .sec8maindiv h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding: 50px 0;
+    font-size: 40px;
+}
+/* div1 */
+
+.section-8  .sec8maindiv   .sec8div1{
+    display: inline-block;
+    /* border: 1px solid; */
+    margin-left: 10%;
+
+}
+/* span1 */
+.section-8 .sec8maindiv .span1{
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 25px;
+    
+}
+.section-8 .sec8maindiv .span1 i{
+    font-size: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.section-8 .sec8maindiv h3{
+    /* border: 1px solid; */
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 10px ;
+   
+    
+}
+/* div2 */
+.section-8  .sec8maindiv   .sec8div2{
+    display: inline-block;
+    margin-left: 20%;
+    /* border: 1px solid; */
+   
+    
+
+}
+/* span3 */
+.section-8 .sec8maindiv .span2{
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffb142;
+    border-radius: 50%;
+    margin-left: 55px;
+    
+}
+.section-8 .sec8maindiv .span2 i{
+    font-size: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/* div3 */
+.section-8  .sec8maindiv   .sec8div3{
+    /* display: inline-block; */
+    /* border: 1px solid; */
+    float: right;
+    margin-right: 10%;
+
+}
+/* span3 */
+.section-8 .sec8maindiv .span3{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    margin-left: 45px;
+    
+}
+.section-8 .sec8maindiv .span3 i{
+    font-size: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+/* section8 end */
+
+/* section9 start ****************************************** */
+
+.section-9{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Capture123.PNG);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px 0;
+}
+.section-9 .sec9div{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 20px auto;
+}
+.section-9 .sec9div h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 30px;
+}
+/* formdiv */
+.section-9 .sec9div .formdiv{
+    text-align: center;
+    margin-top: 20px;
+}
+.section-9 .sec9div .formdiv label{
+    padding: 30px;
+    word-spacing: 4px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+.section-9 .sec9div .formdiv input{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    color: red;
+}
+.section-9 .sec9div .formdiv button{
+    padding: 10px;
+    color: white;
+    background-color:red;
+    text-transform: uppercase;
+    width: 40%;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+}
+.section-9 .sec9div .formdiv textarea{
+    border: none;
+    margin: 15px 0;
+    resize: none;
+   
+
+}
+/* section09 end */
+
+
+
+
+/* section10 ***************************** */
+.section-10{
+    width: 80%;
+    height: 50vh;
+    /* border: 1px solid; */
+    margin: 30px auto;
+    margin-bottom: 30px;
+    
+
+}
+/* div1 */
+.section-10 .sec10div1{
+    /* border: 1px solid red; */
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.section-10 .sec10div1 h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 15px 5px;
+ 
+}
+.section-10 .sec10div1 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 15px 5px;
+}
+/* subdiv1 */
+.section-10 .sec10div1 .sec10subdiv1{
+    /* border: 1px solid yellow; */
+    width: 33%;
+    float: left;
+}
+.section-10 .sec10div1 .sec10subdiv2{
+    /* border: 1px solid yellow; */
+    width: 33%;
+    display: inline-block;
+
+}
+.section-10 .sec10div1 .sec10subdiv3{
+    /* border: 1px solid yellow; */
+    width: 33%;
+    float: right;
+
+}
+
+/* div2 */
+.section-10 .sec10div2{
+    /* border: 1px solid green; */
+    width: 60%;
+    float: right;
+
+}
+.section-10 .sec10div2 h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 15px 5px;
+    
+}
+.section-10 .sec10div2 p{
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 15px 5px;
+}
+/* subdiv 1 */
+.section-10 .sec10div2 .sec10subdiv1{
+    /* border: 1px solid yellow; */
+    width: 33%;
+    float: left;
+}
+.section-10 .sec10div2 .sec10subdiv2{
+    /* border: 1px solid red; */
+    width: 66%;
+    float: right;
+
+}
+/* email form */
+.section-10 .sec10div2 .sec10subdiv2 input{
+    padding: 10px;
+    border-color: whitesmoke;
+    width: 80%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-box-shadow: 5px 5px 3px gray;
+            box-shadow: 5px 5px 3px gray;
+    
+}
+
+/* section 10 end here */
+
+
+/* footer ************************* */
+.footer{
+   /* border: 1px solid green; */
+   margin: 10px 0;
+   background-color:#1e272e;
+   height: 100px;
+    clear: both;
+    
+}
+.footer .footdiv1{
+    float: left;
+    font-family: sans-serif;
+    font-weight: 100;
+    /* border: 1px solid green; */
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: white;
+
+}
+.footer .footdiv2{
+    /* border: 1px solid; */
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+    color: white; 
+}
+.footer .footdiv2 span{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+   
+}
+.footer .footdiv2 i{
+    padding-top: 11px;
+    cursor: pointer;
+    
+}
+.footer .footdiv2 .box1{
+    background-color:dodgerblue ;
+}
+.footer .footdiv2 .box2{
+    background-color: blue;
+
+}
+.footer .footdiv2 .box3{
+    color: red;
+    background-color:white;
+
+}
+.footer .footdiv2 .box4{
+    background-color: red;
+
+}
+.footer .footdiv2 .box5{
+    background-color: brown;
+}
+/* footer end here */
+    
+
